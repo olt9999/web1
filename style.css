@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 블럭 1번 */
+.box1{
+    width: 100%;
+    height: 900px;
+    background-image: url(img/imgbg01.png);
+    background-position: center;
+    background-size: cover;
+}
+.cont1{
+    width: 1100px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 43px;
+}
+.can1{
+    position: absolute;
+    bottom: 96px;
+    right: 192px;
+    width: 384px;
+    height: 617px;
+}
+.title{
+    position: absolute;
+    top: 498px;
+}
+/* 블럭 2번 */
+.box2{
+    width: 100%;
+    height: 150px;
+    background-color: #0E7AE3;
+}
+.cont2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.slogan{
+    width: 402px;
+    height: 87px;
+}
+/* 블럭 3번 */
+.box3{
+    width: 100%;
+    height: 1032px;
+    background-color: white;
+    background-size: cover;
+}
+.cont3{
+    width: 100%;
+    height: 1032px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.simbol{
+    width: 403px;
+    height: 403px;
+    position: absolute;
+    top: 150px;
+}
+.name{
+    width: 294px;
+    height: 116px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 80px;
+    margin-top: 23px;
+    text-align: center;
+}
+.Tag{
+    width: 528px;
+    height: 58px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 40px;
+    margin-top: 116px;
+    text-align: center;
+}
+/* 블럭 4번 */
